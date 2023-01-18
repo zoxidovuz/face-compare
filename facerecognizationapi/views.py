@@ -4,6 +4,7 @@ import urllib
 from django.http import JsonResponse
 
 import face_recognition
+import urllib.request
 from django.views.decorators.csrf import csrf_exempt
 
 
